@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		BCDA7A47211BCCED00891460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A46211BCCED00891460 /* AppDelegate.swift */; };
-		BCDA7A49211BCCED00891460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A48211BCCED00891460 /* ViewController.swift */; };
+		BCDA7A49211BCCED00891460 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A48211BCCED00891460 /* LoginViewController.swift */; };
 		BCDA7A4C211BCCED00891460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDA7A4A211BCCED00891460 /* Main.storyboard */; };
 		BCDA7A4E211BCCF000891460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDA7A4D211BCCF000891460 /* Assets.xcassets */; };
 		BCDA7A51211BCCF000891460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDA7A4F211BCCF000891460 /* LaunchScreen.storyboard */; };
+		BCDA7A59211E778200891460 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A58211E778200891460 /* ForgotPassword.swift */; };
+		BCDA7A5B2120DB8B00891460 /* ForgotConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A5A2120DB8A00891460 /* ForgotConfirmation.swift */; };
+		BCDA7A5D2120E67C00891460 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A5C2120E67C00891460 /* SignUp.swift */; };
+		BCDA7A5F2120E97C00891460 /* InviteHousemates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA7A5E2120E97C00891460 /* InviteHousemates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCDA7A43211BCCED00891460 /* Roomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDA7A46211BCCED00891460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCDA7A48211BCCED00891460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCDA7A48211BCCED00891460 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BCDA7A4B211BCCED00891460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCDA7A4D211BCCF000891460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDA7A50211BCCF000891460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCDA7A52211BCCF000891460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDA7A58211E778200891460 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		BCDA7A5A2120DB8A00891460 /* ForgotConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotConfirmation.swift; sourceTree = "<group>"; };
+		BCDA7A5C2120E67C00891460 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		BCDA7A5E2120E97C00891460 /* InviteHousemates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteHousemates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				BCDA7A46211BCCED00891460 /* AppDelegate.swift */,
-				BCDA7A48211BCCED00891460 /* ViewController.swift */,
+				BCDA7A48211BCCED00891460 /* LoginViewController.swift */,
+				BCDA7A58211E778200891460 /* ForgotPassword.swift */,
+				BCDA7A5A2120DB8A00891460 /* ForgotConfirmation.swift */,
 				BCDA7A4A211BCCED00891460 /* Main.storyboard */,
+				BCDA7A5C2120E67C00891460 /* SignUp.swift */,
+				BCDA7A5E2120E97C00891460 /* InviteHousemates.swift */,
 				BCDA7A4D211BCCF000891460 /* Assets.xcassets */,
 				BCDA7A4F211BCCF000891460 /* LaunchScreen.storyboard */,
 				BCDA7A52211BCCF000891460 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDA7A49211BCCED00891460 /* ViewController.swift in Sources */,
+				BCDA7A49211BCCED00891460 /* LoginViewController.swift in Sources */,
+				BCDA7A5B2120DB8B00891460 /* ForgotConfirmation.swift in Sources */,
+				BCDA7A5F2120E97C00891460 /* InviteHousemates.swift in Sources */,
 				BCDA7A47211BCCED00891460 /* AppDelegate.swift in Sources */,
+				BCDA7A59211E778200891460 /* ForgotPassword.swift in Sources */,
+				BCDA7A5D2120E67C00891460 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
