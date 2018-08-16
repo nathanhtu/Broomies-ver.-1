@@ -8,5 +8,6 @@ target 'Broomies' do
   # Pods for Broomies
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
 
 end
