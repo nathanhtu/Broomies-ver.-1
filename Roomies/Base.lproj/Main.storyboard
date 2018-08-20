@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="2Sz-Rv-E6d">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="QhJ-dv-1XV" customClass="LoginViewController" customModule="Roomies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="QhJ-dv-1XV" customClass="LoginViewController" customModule="Broomies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fkM-Ni-s4q"/>
                         <viewControllerLayoutGuide type="bottom" id="3Il-gF-sQk"/>
@@ -90,7 +90,7 @@
         <!--Forgot Password-->
         <scene sceneID="PSt-lD-uYL">
             <objects>
-                <viewController storyboardIdentifier="ForgotPassword" id="cpA-U3-IEi" customClass="ForgotPassword" customModule="Roomies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgotPassword" id="cpA-U3-IEi" customClass="ForgotPassword" customModule="Broomies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7df-t7-XeD"/>
                         <viewControllerLayoutGuide type="bottom" id="vAa-l0-cM7"/>
@@ -138,7 +138,7 @@
         <!--Forgot Confirmation-->
         <scene sceneID="ghZ-2g-IjD">
             <objects>
-                <viewController id="XRQ-Qn-vwU" customClass="ForgotConfirmation" customModule="Roomies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XRQ-Qn-vwU" customClass="ForgotConfirmation" customModule="Broomies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hbf-DL-jGg"/>
                         <viewControllerLayoutGuide type="bottom" id="Lar-Ug-Lgx"/>
@@ -210,7 +210,7 @@
         <!--Sign Up-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SignUp" customModule="Roomies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignUp" customModule="Broomies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pdm-Iu-PHZ"/>
                         <viewControllerLayoutGuide type="bottom" id="uhr-ge-cVI"/>
@@ -262,7 +262,7 @@
         <!--Invite Housemates-->
         <scene sceneID="rab-FI-fvz">
             <objects>
-                <viewController id="mZo-54-qS9" customClass="InviteHousemates" customModule="Roomies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mZo-54-qS9" customClass="InviteHousemates" customModule="Broomies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Alc-Yu-wxX"/>
                         <viewControllerLayoutGuide type="bottom" id="K6z-Iv-QBb"/>
