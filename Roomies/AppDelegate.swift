@@ -9,19 +9,45 @@
 import UIKit
 import Firebase
 import FirebaseFirestore
+import FirebaseStorage
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
         let db = Firestore.firestore()
+        let storage = Storage.storage()
+        
+        let authUI = FUIAuth.defaultAuthUI()
+        authUI?.delegate = self as? FUIAuthDelegate
+        let providers: [FUIAuthProvider] = [FUIGoogleAuth(), FUIFacebookAuth()]
+        authUI?.providers = providers
+        
+        let authViewController = authUI?.authViewController()
+
+        
         return true
+    }
+    
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        // specific handler for fb login
+        /*let handled: Bool = FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        // Add any custom logic here.
+        return handled*/
+        let sourceApplication = options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String?
+        if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
+            return true
+        }
+        // other URL handling goes here.
+        return false
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
